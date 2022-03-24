@@ -121,4 +121,4 @@ await findOne({role:"Beetlejuice"})
 await updateOne({name:"Adam West"},{$set:{role:"Classic Batman"}})
 await findOne({name:"Adam West"});
 console.log('-----------------------');
-await getAll({role:'Batman'}, {name:-1})
+await getAll({role:'Batman'})
